@@ -4,4 +4,5 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - debug: var=test_var
+    - debug: 
+        msg: "{{ test_var }}"
